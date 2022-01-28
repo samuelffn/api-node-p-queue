@@ -31,6 +31,7 @@ Obs.: O npm run serve para executar os comandos que estão em script
 **npm i p-queue**  
 Esta lib é utilizada para paralelização. O Node é uma linguagem que possui apenas uma thread, mas a p-queue simula uma paralelização de processamento.  
 Útil para operações assíncronas (ou sincronização) de limitação de taxa. Por exemplo, ao interagir com uma API REST ou ao realizar tarefas com uso intensivo de CPU/memória.  
-Para mais informações, acesse o link: https://www.npmjs.com/package/p-queue  
+Para mais informações, acesse o link:  
+-https://www.npmjs.com/package/p-queue  
   
   
