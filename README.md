@@ -9,7 +9,7 @@ Poc de uma API em NodeJs para uso da lib p-queue.
   
 ## Comando para executar o projeto  
 nstalando as dependências: **npm i**  
-Executando direto com o node: **node server.js**  
+Executando direto com o node: **node main.js**  
 Usando o nodemon: **npm run start**  
   
 ## Dependências utilizadas no projeto    
@@ -22,8 +22,8 @@ Dependência para ser utilizada apenas no ambiente de desenvolvimento.
 Ela faz com que ao salvar alguma alteração o servidor faça a atualização semprecisar parar e executar novamente.  
 Utilização:  
 1) Acessa o package.json  
-2) Em scripts, cria uma nova propriedade: **"dev": "nodemon server.js"**  
-3) No terminal executa a aplicação usando o comando: **npm run dev**  
+2) Em scripts, cria uma nova propriedade: **"dev": "nodemon main.js"**  
+3) No terminal executa a aplicação usando o comando: **npm run start**  
 Obs.: O npm run serve para executar os comandos que estão em script  
 4) Ao executar a aplicação pela primeira vez ela vai criar o banco de dados.  
   
