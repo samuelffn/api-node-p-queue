@@ -5,7 +5,7 @@ Poc de uma API em NodeJs para uso da lib p-queue.
 1) mkdir api-node-p-queue (nome do diretório do projeto)  
 2) cd api-node-p-queue  
 3) npm init -y (comando para criação do projeto)  
-4) ls  
+4) ls (para listar o que tem na pasta)  
   
 ## Comando para executar o projeto  
 nstalando as dependências: **npm i**  
